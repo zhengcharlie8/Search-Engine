@@ -14,6 +14,8 @@ The file format for the code is:
 
 4. `src/retrieval/retrieval` contains the code for the retrieval models, clustering and belief and query nodes for the inference network.
 
+5. `src/cluster` contains the code for building a cluster. Similararity score is calculated using Cosine Similarity.
+
 ## Dependencies
 
 The code uses json-simple-1.1.1.jar	which can be downloaded here <https://code.google.com/archive/p/json-simple/downloads> 
