@@ -2,17 +2,17 @@
 This project implements a search engine using a file of all shakespeare scenes as a corpus. It is able to be modified to be a generic search engine for any provided corpus.
 
 ## Files
-This project has already been compiled so all the output files are already included in the directory.
+This project has already been compiled so all the output files are already included in the directory under `src/output`.
 
 The file format for the code is:
 
-src/index/index contains the code for building the inverted index and the postings list from the provided corpus.
+1. `src/index/index` contains the code for building the inverted index and the postings list from the provided corpus.
 
-src/index/utilities contains the code for compressing the index (using VByte Encoding)
+2. `src/index/utilities` contains the code for compressing the index (using VByte Encoding)
 
-src/retrieval/apps contains the code to build an index, comparing retrieval models (BM-25, Vector Space Model, Jelinik-Mercer and Dirichlet), making and testing a prior operator for querying independent features, creating document vectors, building an online cluster,  and a file to test the inference network.
+3. `src/retrieval/apps` contains the code to build an index, comparing retrieval models (BM-25, Vector Space Model, Jelinik-Mercer and Dirichlet), making and testing a prior operator for querying independent features, creating document vectors, building an online cluster,  and a file to test the inference network.
 
-src/retrieval/retrieval contains the code for the retrieval models, clustering and belief and query nodes for the inference network.
+4. `src/retrieval/retrieval` contains the code for the retrieval models, clustering and belief and query nodes for the inference network.
 
 ## Dependencies
 
