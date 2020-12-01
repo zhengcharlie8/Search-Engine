@@ -1,6 +1,4 @@
-# Search-Engine 
-
-## Description
+## Introduction
 This project implements a search engine using a file of all shakespeare scenes as a corpus. It is able to be modified to be a generic search engine for any provided corpus.
 
 ## Files
