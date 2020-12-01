@@ -18,7 +18,7 @@ The file format for the code is:
 
 The code uses json-simple-1.1.1.jar	which can be downloaded here <https://code.google.com/archive/p/json-simple/downloads> 
 
-## Building & Running the code
+## Building & Running
 
 The code can be built at run using Eclipse.
 ## Runnable Applications
@@ -64,6 +64,5 @@ This project has 6 runnable apps:
 6.   `api/TestPrior`: This is used to run the prior queries using the arguments provided.
 
 ## Troubleshooting
-1. Make sure Java is installed correctly.
-2. Make sure the json-simple dependency is correctly added to the dependencies.
-3. 
+1. Make sure Java is installed correctly (Project is currently running on Java 8).
+2. Make sure the json-simple dependency is correctly installed and added to the dependencies.
