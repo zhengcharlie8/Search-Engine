@@ -22,7 +22,7 @@ The code uses json-simple-1.1.1.jar	which can be downloaded here <https://code.g
 
 ## Building & Running
 
-The code can be built at run using Eclipse.
+The code can be compiled, built and run using Eclipse.
 ## Runnable Applications
 This project has 6 runnable apps:
 1. `apps/BuildIndex`: This is used to build the inverted index and write it onto disk. The options for this are:
