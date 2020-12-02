@@ -61,9 +61,9 @@ This project has 6 runnable apps:
     * AVERAGE_LINK
     * MEAN_LINK
     
-5.  `api/MakePrior`: This is used to create the priors using `uniform` and `random`, and writes them to a file on disk.
+5.  `apps/MakePrior`: This is used to create the priors using `uniform` and `random`, and writes them to a file on disk.
 
-6.   `api/TestPrior`: This is used to run the prior queries using the arguments provided.
+6.   `apps/TestPrior`: This is used to run the prior queries using the arguments provided.
 
 ## Troubleshooting
 1. Make sure Java is installed correctly (Project is currently running on Java 8).
